@@ -16,18 +16,31 @@
         <section class="product">
             <h2><span class="red-text">SynaPad</span></h2>
             <p>A lightweight, budget-friendly note-taking tablet with a seamless writing experience.</p>
+            <button onclick="showDetails(0)">View Details</button>
         </section>
 
         <section class="product">
             <h2><span class="red-text">SynaPad</span> <span class="blue-text">Plus</span></h2>
             <p>Enhanced with more storage, better responsiveness, and additional features.</p>
+            <button onclick="showDetails(1)">View Details</button>
         </section>
 
         <section class="product">
             <h2><span class="red-text">SynaPad</span> <span class="dark-red-text">Pro</span></h2>
             <p>Premium model with top-tier performance, pro stylus support, and extended capabilities.</p>
+            <button onclick="showDetails(2)">View Details</button>
         </section>
+
+        <div id="productDetails" style="display: none;">
+            <h2 id="productName"></h2>
+            <p id="productDescription"></p>
+            <p id="productPrice"></p>
+            <h3>Specs:</h3>
+            <ul id="productSpecs"></ul>
+            <button onclick="closeDetails()">Close</button>
+        </div>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
- 

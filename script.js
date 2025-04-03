@@ -53,4 +53,5 @@ function closeDetails() {
     document.getElementById('productDetails').style.display = 'none';
 }
 
+
  
