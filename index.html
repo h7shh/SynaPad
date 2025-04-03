@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SynaPad - Product Line</title>
-    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1><span class="red-text">SynaPad</span> - Product Line</h1>
+        <img src="synapadlogo.png" alt="SynaPad Logo"> <h1><span class="red-text">SynaPad</h1>
+        <nav>
+            <a href="index.html">Products</a>
+            <a href="about.html">About Us</a>
+            <a href="compare.html">Compare Products</a>
+        </nav>
     </header>
 
     <main>
         <section class="product">
-            <h2><span class="red-text">SynaPad</span></h2>
+            <h2><span class="red-text">SynaPad</span> <span style="color: #272327;">Core</span></h2>
             <p>A lightweight, budget-friendly note-taking tablet with a seamless writing experience.</p>
             <button onclick="showDetails(0)">View Details</button>
         </section>
@@ -40,7 +45,6 @@
             <button onclick="closeDetails()">Close</button>
         </div>
     </main>
-
     <script src="script.js"></script>
 </body>
 </html>
