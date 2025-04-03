@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SynaPad - Interactive Product Showcase</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SynaPad</h1>
+        <p>Your Ultimate Digital Notebook</p>
+    </header>
+
+    <div class="products">
+        <div class="product" onclick="showDetails(0)">
+            <img src="https://via.placeholder.com/200x150" alt="SynaPad Pro">
+            <h3>SynaPad Pro</h3>
+            <p>High-end features, premium design</p>
+        </div>
+        <div class="product" onclick="showDetails(1)">
+            <img src="https://via.placeholder.com/200x150" alt="SynaPad Plus">
+            <h3>SynaPad Plus</h3>
+            <p>Premium with extra performance</p>
+        </div>
+        <div class="product" onclick="showDetails(2)">
+            <img src="https://via.placeholder.com/200x150" alt="SynaPad Basic">
+            <h3>SynaPad Basic</h3>
+            <p>Perfect for light use</p>
+        </div>
+    </div>
+
+    <div id="productDetails" class="details">
+        <button onclick="closeDetails()">Close</button>
+        <h2 id="productName"></h2>
+        <p id="productDescription"></p>
+        <p><strong>Price:</strong> <span id="productPrice"></span></p>
+        <p><strong>Specifications:</strong></p>
+        <ul id="productSpecs"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
