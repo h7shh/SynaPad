@@ -1,36 +1,35 @@
 const products = [
     {
-        name: "SynaPad Pro",
-        description: "The premium digital notebook, offering advanced features, best for professionals.",
-        price: "AED 2,499",
+        name: "SynaPad Core",
+        description: "Affordable 6.8\" e-ink note-taker. Basic stylus, 16GB storage, 6-7 day battery, cloud sync. Ideal for students and casual users.",
+        price: "AED 799 - 899",
         specs: [
-            "10.2-inch 4K display",
-            "1TB storage",
-            "12GB RAM",
-            "Magnetic stylus",
-            "Voice dictation support"
+            "6.8\" Matte Paper-like Display",
+            "Basic Capacitive Stylus",
+            "16GB Storage, Cloud Sync",
+            "6-7 Day Battery"
         ]
     },
     {
         name: "SynaPad Plus",
-        description: "Perfect for students and professionals who need a balance of power and portability.",
-        price: "AED 1,799",
+        description: "Premium 10.3\" e-ink tablet. Pressure-sensitive stylus, 32GB storage (expandable), 7-11 day battery, advanced AI features. For professionals and students.",
+        price: "AED 1499 - 1699",
         specs: [
-            "10.1-inch Full HD display",
-            "512GB storage",
-            "8GB RAM",
-            "Magnetic stylus"
+            "10.3\" Matte Paper-like Display",
+            "Pressure-sensitive Stylus",
+            "32GB Storage (expandable), Advanced AI",
+            "7-11 Day Battery"
         ]
     },
     {
-        name: "SynaPad Basic",
-        description: "Affordable and efficient for everyday use, ideal for note-taking and light work.",
-        price: "AED 1,199",
+        name: "SynaPad Pro",
+        description: "High-end 13.3\" e-ink canvas. Pro stylus with AI handwriting-to-text, 64GB storage (expandable), 11-17 day battery, AI voice dictation. For creatives and professionals.",
+        price: "AED 2199 - 2499",
         specs: [
-            "9.7-inch HD display",
-            "256GB storage",
-            "4GB RAM",
-            "Basic stylus"
+            "13.3\" Matte Paper-like Display",
+            "Pro Stylus with AI features",
+            "64GB Storage (expandable), AI Voice Dictation",
+            "11-17 Day Battery"
         ]
     }
 ];
