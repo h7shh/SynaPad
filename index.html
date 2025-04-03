@@ -3,43 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SynaPad - Interactive Product Showcase</title>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>SynaPad - Product Line</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>SynaPad</h1>
-        <p>Your Ultimate Digital Notebook</p>
+        <h1><span class="red-text">SynaPad</span> - Product Line</h1>
     </header>
 
-    <div class="products">
-        <div class="product" onclick="showDetails(0)">
-            <img src="https://via.placeholder.com/200x150" alt="SynaPad Pro">
-            <h3>SynaPad Pro</h3>
-            <p>High-end features, premium design</p>
-        </div>
-        <div class="product" onclick="showDetails(1)">
-            <img src="https://via.placeholder.com/200x150" alt="SynaPad Plus">
-            <h3>SynaPad Plus</h3>
-            <p>Premium with extra performance</p>
-        </div>
-        <div class="product" onclick="showDetails(2)">
-            <img src="https://via.placeholder.com/200x150" alt="SynaPad Basic">
-            <h3>SynaPad Basic</h3>
-            <p>Perfect for light use</p>
-        </div>
-    </div>
+    <main>
+        <section class="product">
+            <h2><span class="red-text">SynaPad</span></h2>
+            <p>A lightweight, budget-friendly note-taking tablet with a seamless writing experience.</p>
+        </section>
 
-    <div id="productDetails" class="details">
-        <button onclick="closeDetails()">Close</button>
-        <h2 id="productName"></h2>
-        <p id="productDescription"></p>
-        <p><strong>Price:</strong> <span id="productPrice"></span></p>
-        <p><strong>Specifications:</strong></p>
-        <ul id="productSpecs"></ul>
-    </div>
+        <section class="product">
+            <h2><span class="red-text">SynaPad</span> <span class="blue-text">Plus</span></h2>
+            <p>Enhanced with more storage, better responsiveness, and additional features.</p>
+        </section>
 
-    <script src="script.js"></script>
+        <section class="product">
+            <h2><span class="red-text">SynaPad</span> <span class="dark-red-text">Pro</span></h2>
+            <p>Premium model with top-tier performance, pro stylus support, and extended capabilities.</p>
+        </section>
+    </main>
 </body>
 </html>
